@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-devjmetivier",
+  "version": "0.0.9",
+  "description": "ESLint and Prettier Config from Devin Metivier",
+  "keywords": [
+    "config",
+    "ecmascript",
+    "eslint",
+    "javascript",
+    "lint",
+    "prettier"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:dmetivier/eslint-config-devjmetivier.git",
+  "author": "Devin Metivier <devinmetivier@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "prettier": "^1.17.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
+}
