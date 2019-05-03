@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ESLint and Prettier Config from Devin Metivier",
   "keywords": [
     "config",
