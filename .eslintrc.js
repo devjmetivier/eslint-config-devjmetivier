@@ -1368,7 +1368,9 @@ module.exports = {
     ],
     "wrap-regex": 0,
     "yield-star-spacing": [2, "after"],
-    "yoda": 2
+    "yoda": 2,
+    "@typescript-eslint/no-var-requires": 0,
+    "eol-last": 0,
   },
 
   "settings": {
