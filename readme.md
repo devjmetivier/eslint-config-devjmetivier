@@ -1,7 +1,7 @@
 ![npm](https://img.shields.io/npm/v/eslint-config-devjmetivier.svg)
 ![npm](https://img.shields.io/npm/dt/eslint-config-devjmetivier.svg)
 
-# Opinionated ESLint + Prettier Setup
+# Opinionated ESLint Setup
 
 These are my settings for [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for Eslint
 
@@ -10,9 +10,8 @@ If you like them, awesome. If not, change them up!
 ## What this does
 
 * Lints JavaScript based on the latest standards
-* Fixes issues and formatting errors with Prettier
-* Lints + Fixes inside of html script tags
-* Lints + Fixes React via [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+* Fixes issues and formatting errors with Eslint + Prettier
+* Lints + Fixes JSX markup
 
 ## Installing
 You can use eslint globally and/or locally per project.
@@ -26,7 +25,7 @@ It's usually best to install this locally once per project, that way you can hav
 
     `npx install-peerdeps --dev eslint-config-devjmetivier`
 
-3. You can see in your package.json there are now a **big** list of devDependencies.
+3. You can see in your package.json there are now several additions to your list of devDependencies.
 
 4. Create a .eslintrc file in the root of your project's directory (it should live where package.json does). Your .eslintrc file should look like this:
 
@@ -49,4 +48,4 @@ It's usually best to install this locally once per project, that way you can hav
     }
     ```
 
-6. Now you can manually lint your code by running `npm run lint` and fix all fixable issues with `npm run lint:fix`. You probably want your editor to do this though.
+6. Now you can manually lint your code by running `npm run lint` and fix all fixable issues with `npm run lint:fix`. You probably want your editor to do this automagically, though.
