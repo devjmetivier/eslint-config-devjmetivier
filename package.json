@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "ESLint and Prettier Config from Devin Metivier",
   "keywords": [
     "config",
@@ -22,7 +22,6 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
     "prettier": "^1.18.2",
     "typescript": "^3.5.3"
@@ -36,7 +35,6 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
