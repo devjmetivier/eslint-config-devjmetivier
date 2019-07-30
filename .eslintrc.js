@@ -1,4 +1,6 @@
 module.exports = {
+  "parser": "@typescript-eslint/parser",
+
   "extends": [
     "plugin:prettier/recommended"
   ],
@@ -28,11 +30,12 @@ module.exports = {
     "ecmaFeatures": {
       "jsx": true
     },
+    "sourceType": "module",
   },
 
   "env": {
-    "es6": true,
-    "node": true
+    "browser": true,
+    "node": true,
   },
 
   "settings": {
