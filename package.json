@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "ESLint Config from Devin Metivier",
   "keywords": [
     "config",
@@ -15,29 +15,27 @@
   "author": "Devin Metivier <devinmetivier@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@types/node": "^12.6.1",
+    "@types/node": "^12.7.2",
     "@typescript-eslint/parser": "^2.0.0",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "prettier": "^1.18.2",
-    "react": "^16.8.6",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
-    "@types/node": "^12.6.1",
+    "@types/node": "^12.7.2",
     "@typescript-eslint/parser": "^2.0.0",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "prettier": "^1.18.2",
-    "react": "^16.8.6",
     "typescript": "^3.5.3"
   },
   "scripts": {
