@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "yarn lint:fix",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix"
   }
 }
