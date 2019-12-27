@@ -15,7 +15,7 @@
   "author": "Devin Metivier <devinmetivier@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@types/node": "^12.7.3",
+    "@types/node": "^13.1.1",
     "@typescript-eslint/parser": "^2.0.0",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
@@ -27,7 +27,7 @@
     "typescript": "^3.6.2"
   },
   "devDependencies": {
-    "@types/node": "^12.7.3",
+    "@types/node": "^13.1.1",
     "@typescript-eslint/parser": "^2.0.0",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
