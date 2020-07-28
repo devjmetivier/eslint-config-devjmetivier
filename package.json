@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "ESLint Config from Devin Metivier",
   "keywords": [
     "config",
@@ -15,7 +15,7 @@
   "author": "Devin Metivier <devinmetivier@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@types/node": "^14.0.1",
+    "@types/node": "^14.0.26",
     "@typescript-eslint/parser": "^3.0.2",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
@@ -27,7 +27,7 @@
     "typescript": "^3.9.7"
   },
   "devDependencies": {
-    "@types/node": "^14.0.46",
+    "@types/node": "^14.0.26",
     "@typescript-eslint/parser": "^3.7.1",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
