@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const { OFF, WARN, ERROR } = require('../constants');
 
 module.exports = {
@@ -19,7 +20,15 @@ module.exports = {
     'jsx-a11y/iframe-has-title': ERROR,
     'jsx-a11y/img-redundant-alt': ERROR,
     'jsx-a11y/interactive-supports-focus': WARN,
-    'jsx-a11y/label-has-for': ERROR,
+    'jsx-a11y/label-has-for': [
+      ERROR,
+      {
+        required: {
+          every: ['id'],
+        },
+        allowChildren: true,
+      },
+    ],
     'jsx-a11y/lang': ERROR,
     'jsx-a11y/media-has-caption': WARN,
     'jsx-a11y/mouse-events-have-key-events': ERROR,

@@ -3,9 +3,12 @@ module.exports = {
 
   extends: [
     './rules/prettier.js',
-    './rules/react.js',
-    './rules/jsx-a11y.js',
-    './rules/react-hooks.js',
+    './rules/general.js',
+    './rules/import.js',
     './rules/options.js',
+    './rules/jsx-a11y.js',
+    './rules/react.js',
+    './rules/react-hooks.js',
+    './rules/typescript-eslint.js',
   ],
 };
