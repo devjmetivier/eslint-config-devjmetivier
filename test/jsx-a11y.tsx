@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import * as React from 'react';
 
 const AccessibilityTest: React.FC = () => {

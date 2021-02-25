@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-unresolved
-import React from 'react';
+import * as React from 'react';
 
 const SimpleComponent: React.FC = () => (
   <>
