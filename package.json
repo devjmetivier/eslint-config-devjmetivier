@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "ESLint Config from Devin Metivier",
   "keywords": [
     "config",
