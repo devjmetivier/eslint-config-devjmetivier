@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "ESLint Config from Devin Metivier",
   "keywords": [
     "config",
@@ -18,23 +18,25 @@
     "typescript": "> 3.8.x"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.27.0",
-    "@typescript-eslint/parser": "^4.27.0",
-    "eslint": "^7.29.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.3.1"
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.4.1"
   },
   "devDependencies": {
-    "@types/jest": "latest",
-    "jest": "latest",
+    "@types/jest": "27.0.2",
+    "@types/lodash": "^4.14.177",
+    "@types/styled-components": "^5.1.15",
+    "jest": "27.3.1",
     "react": "latest",
-    "styled-components": "latest",
-    "typescript": "latest"
+    "styled-components": "5.3.3",
+    "typescript": "4.4.4"
   },
   "scripts": {
     "build": "yarn lint:fix",

@@ -1,15 +1,11 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "10:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: "@typescript-eslint/eslint-plugin"
-    versions:
-    - 4.22.0
-  - dependency-name: eslint-config-prettier
-    versions:
-    - 8.0.0
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "08:00"
+    open-pull-requests-limit: 10
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
