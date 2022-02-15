@@ -2,6 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
 
   extends: [
+    './rules/next.js',
     './rules/prettier.js',
     './rules/general.js',
     './rules/import.js',
