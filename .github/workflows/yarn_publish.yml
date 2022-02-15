@@ -12,14 +12,15 @@ jobs:
     steps:
       - name: Checkout current branch
         uses: actions/checkout@v1
+
       - name: Setup node environment
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: 14.x
           registry-url: https://registry.npmjs.org/
-      - name: Install yarn && publish
+
+      - name: Publish
         run: |
-          npm i -g yarn
           yarn
           yarn publish
         env:
