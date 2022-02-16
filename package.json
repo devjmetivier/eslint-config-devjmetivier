@@ -1,7 +1,14 @@
 {
   "name": "eslint-config-devjmetivier",
-  "version": "2.5.0",
   "description": "ESLint Config from Devin Metivier",
+  "version": "2.5.1",
+  "author": "Devin Metivier <devinmetivier@gmail.com>",
+  "license": "MIT",
+  "repository": "git://github.com/devjmetivier/eslint-config-devjmetivier.git",
+  "homepage": "https://github.com/devjmetivier/eslint-config-devjmetivier",
+  "bugs": {
+    "url": "https://github.com/devjmetivier/eslint-config-devjmetivier/issues"
+  },
   "keywords": [
     "config",
     "ecmascript",
@@ -11,9 +18,11 @@
     "prettier"
   ],
   "main": "index.js",
-  "repository": "git@github.com:dmetivier/eslint-config-devjmetivier.git",
-  "author": "Devin Metivier <devinmetivier@gmail.com>",
-  "license": "MIT",
+  "scripts": {
+    "build": "yarn lint:fix",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix"
+  },
   "peerDependencies": {
     "typescript": "> 4.x.x"
   },
@@ -41,10 +50,5 @@
     "react-dom": "*",
     "styled-components": "5.3.3",
     "typescript": "*"
-  },
-  "scripts": {
-    "build": "yarn lint:fix",
-    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
-    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix"
   }
 }
