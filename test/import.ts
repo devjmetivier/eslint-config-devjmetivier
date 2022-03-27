@@ -1,3 +1,4 @@
 import * as React from 'react';
 
-import { StyledComponent } from './example.style';
+import flatMap from 'lodash/flatMap';
+import map from 'lodash/map';

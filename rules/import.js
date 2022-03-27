@@ -11,8 +11,23 @@ module.exports = {
     'import/order': [
       ERROR,
       {
-        groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object'],
         'newlines-between': 'always',
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'builtin',
+          },
+          {
+            pattern: 'react-dom',
+            group: 'builtin',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react', 'react-dom'],
       },
     ],
   },

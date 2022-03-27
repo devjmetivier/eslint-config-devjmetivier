@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 import _map from 'lodash/map';
 
 import SimpleComponent from './SimpleComponent';

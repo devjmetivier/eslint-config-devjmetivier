@@ -20,15 +20,13 @@ It's usually best to install this locally once per project, that way you can hav
 
 ## Local / Per Project Install
 
-1. If you don't already have a package.json file, create one with `npm init`.
+1. If you don't already have a package.json file, create one with `npm init` or `yarn init`.
 
 2. Install everything needed by the config:
 
-   `npx install-peerdeps --dev eslint-config-devjmetivier`
+   `npm install eslint-config-devjmetivier` or `yarn add eslint-config-devjmetivier`
 
-3. You can see in your package.json there are now several additions to your list of devDependencies.
-
-4. Create a .eslintrc file in the root of your project's directory (it should live where package.json does). Your .eslintrc file should look like this:
+3. Create a .eslintrc file in the root of your project's directory (it should live where package.json does). Your .eslintrc file should look like this:
 
    ```json
    {
@@ -38,7 +36,7 @@ It's usually best to install this locally once per project, that way you can hav
 
    Tip: You can alternatively put this object in your package.json under the property "eslintConfig":. This makes one less file in your project.
 
-5. You can add two scripts to your package.json to lint and/or fix:
+4. You can add two scripts to your package.json to lint and/or fix:
 
    ```json
    "scripts": {
@@ -47,4 +45,4 @@ It's usually best to install this locally once per project, that way you can hav
    }
    ```
 
-6. Now you can manually lint your code by running `npm run lint` and fix all fixable issues with `npm run lint:fix`. You probably want your editor to do this automagically, though.
+5. Now you can manually lint your code by running `npm run lint` and fix all fixable issues with `npm run lint:fix`. You probably want your editor to do this automagically, though.
