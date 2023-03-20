@@ -47,6 +47,6 @@
     "lodash": "^4.17.21",
     "react": "*",
     "react-dom": "*",
-    "typescript": "4.9.3"
+    "typescript": "5.0.2"
   }
 }
